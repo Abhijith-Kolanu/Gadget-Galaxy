@@ -113,6 +113,13 @@ span {
     display: inline;
     margin-left: 15px;
 }
+.panel-ops a{
+    text-decoration: none;
+    color: white;
+}
+.panel-ops a:hover {
+    color: #a4a7aa;
+}
 .panel-ops {
     width: 70%;
     font-size: 0.85rem;
@@ -121,15 +128,15 @@ span {
     font-size: 0.9rem;
     font-weight: 700;
 }
-
 /** hero section **/
 .hero-section {
-    background-image: url("GG_hero.png");
+    background-image: url("images/GG_hero.png");
     background-size: cover;
     height: 360px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position;
 }
 .hero-msg {
     background-color: white;
@@ -148,26 +155,27 @@ span {
 
 /** shop section **/
 .shop-section {
+    border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+    padding-bottom: 15px;
 }
 .box {
-   /* border: 2px solid black;*/
-    height: 370px;
-    width: 23%;
+    border: 2px solid black;
+    height: 330px;
+    width: 32%;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
-
 }
 .box-img {
-    height: 270px;
+    border: 2px solid black;
+    height: 170px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 0.6rem;
-
 }
 .box-content {
     margin-left: 1rem;
@@ -178,9 +186,9 @@ span {
 }
 
 /** footer **/
-footer {
+/*footer {
     margin-top: 15px;
-}
+}*/
 .foot-panel1 {
     background-color: #37475a;
     color: white;
